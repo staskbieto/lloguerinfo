@@ -1,0 +1,2 @@
+"0","Summary62 <- childrenSeatsDataFrame %>% group_by(ShelveLoc, Urban)  %>% summarise(Sales = mean(Sales), n = n())"
+"0","Summary62 %>% kable() %>% kable_styling(bootstrap_options = c(""striped"", ""hover""))"

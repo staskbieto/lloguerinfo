@@ -1,0 +1,8 @@
+"0","boxplot(Sales~US,"
+"0","  data=childrenSeatsDataFrame,"
+"0","  main=""Vendes segons si és dins d'EUA o al exterior "","
+"0","  xlab=""Als EEUU?"","
+"0","  ylab=""Vendes (milers)"","
+"0","  col=""yellow"","
+"0","  border=""green"""
+"0",")"

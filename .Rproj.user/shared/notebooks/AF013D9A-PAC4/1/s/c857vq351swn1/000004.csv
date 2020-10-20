@@ -1,0 +1,15 @@
+"0",""
+"0","library(""ggpubr"")"
+"2","Loading required package: ggplot2
+"
+"2","Loading required package: magrittr
+"
+"0","ggline(SummaryEx61, x = ""ShelveLoc"", y = ""Sales"", color = ""US"","
+"0","       add = c(""mean_se"", ""dotplot""),"
+"0","       palette = c(""#00AFBB"", ""#E7B800""))"
+"2","NaNs produced"
+"2","NaNs produced"
+"2","NaNs produced"
+"2","NaNs produced"
+"2","NaNs produced"
+"2","NaNs produced"

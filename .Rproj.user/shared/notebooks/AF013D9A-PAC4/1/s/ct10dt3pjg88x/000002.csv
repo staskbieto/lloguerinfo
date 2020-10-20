@@ -1,0 +1,5 @@
+"0","library(knitr)"
+"0","library(kableExtra)"
+"0",""
+"0","testData1 = data.frame(Urban=""No"", US='No', Price=131, Advertising=0,Population=139,Age=40,ShelveLoc='Bad')     "
+"0","predict(liniarRegressionEx41, newdata = testData1, interval=""predict"") %>% kable() %>% kable_styling(bootstrap_options = c(""striped"", ""hover""))"

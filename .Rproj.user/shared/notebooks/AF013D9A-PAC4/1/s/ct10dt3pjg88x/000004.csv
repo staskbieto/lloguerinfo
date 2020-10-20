@@ -1,0 +1,3 @@
+"0",""
+"0","testData2 = data.frame(Urban=""No"", US='No', Price=131, Advertising=9,Population=139,Age=40,ShelveLoc='Good')     "
+"0","predict(liniarRegressionEx41, newdata = testData2, interval=""predict"") %>% kable() %>% kable_styling(bootstrap_options = c(""striped"", ""hover""))"

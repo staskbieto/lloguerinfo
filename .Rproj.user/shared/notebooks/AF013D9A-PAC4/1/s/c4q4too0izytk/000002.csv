@@ -1,0 +1,8 @@
+"0","boxplot(Sales~Urban,"
+"0","  data=childrenSeatsDataFrame,"
+"0","  main=""Vendes segons si és ubicació urbana"","
+"0","  xlab=""Ubicació urbana?"","
+"0","  ylab=""Vendes (milers)"","
+"0","  col=""blue"","
+"0","  border=""purple"""
+"0",")"
