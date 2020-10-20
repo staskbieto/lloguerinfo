@@ -1,3 +1,0 @@
-"0","shelveLocTable<- table(childrenSeatsDataFrame$ShelveLoc)"
-"0","labs<- paste(names(shelveLocTable), "" ("", shelveLocTable,"")"", sep="""")"
-"0","pie(shelveLocTable, labels = labs, main=""Vendes segons la bondat de la posició als prestatges"")"

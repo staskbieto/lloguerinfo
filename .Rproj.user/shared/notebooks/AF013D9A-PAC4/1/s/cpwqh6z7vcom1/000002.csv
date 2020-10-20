@@ -1,8 +1,0 @@
-"0","boxplot(Sales~ShelveLoc,"
-"0","  data=childrenSeatsDataFrame,"
-"0","  main=""Vendes segons la posició al prestatges"","
-"0","  xlab=""Posició als prestatges"","
-"0","  ylab=""Vendes (milers)"","
-"0","  col=""orange"","
-"0","  border=""brown"""
-"0",")"

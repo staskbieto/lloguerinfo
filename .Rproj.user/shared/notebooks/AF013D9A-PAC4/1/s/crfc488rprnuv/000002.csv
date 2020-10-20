@@ -1,3 +1,0 @@
-"0","urbanTable<- table(childrenSeatsDataFrame$Urban)"
-"0","labs<- paste(names(urbanTable), "" ("", urbanTable,"")"", sep="""")"
-"0","pie(urbanTable, labels = labs, main=""Vendes en nuclis urbans?"")"

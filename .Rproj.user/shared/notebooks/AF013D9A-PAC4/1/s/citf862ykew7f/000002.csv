@@ -1,3 +1,0 @@
-"0","usTable<- table(childrenSeatsDataFrame$US)"
-"0","labs<- paste(names(usTable), "" ("", usTable,"")"", sep="""")"
-"0","pie(usTable, labels = labs, main=""Vendes als EEUU?"")"
