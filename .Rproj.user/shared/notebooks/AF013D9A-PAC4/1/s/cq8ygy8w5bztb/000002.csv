@@ -1,0 +1,5 @@
+"0","datatata <- read.csv(""dades.csv"",fileEncoding=""ISO-8859-1"")"
+"0",""
+"0","usTable<- table(datatata$Sexo)"
+"0","labs<- paste(names(usTable), "" ("", usTable,"")"", sep="""")"
+"0","pie(usTable, labels = labs, main=""Sexe"")"

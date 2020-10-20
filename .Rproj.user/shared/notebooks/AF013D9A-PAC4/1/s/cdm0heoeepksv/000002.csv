@@ -1,0 +1,2 @@
+"0","aov612 <- aov(Sales~ShelveLoc+US,data=childrenSeatsDataFrame)"
+"0","plot(aov612)"
