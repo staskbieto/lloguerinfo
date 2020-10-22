@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for idealista project
+# Scrapy settings for fotocasa project
 #
 # For simplicity, this file contains only the most important settings by
 # default. All the other settings are documented here:
@@ -15,10 +15,10 @@ from .proxies import get_proxies
 # Main configuration
 ###########################
 
-BOT_NAME = 'idealista'
+BOT_NAME = 'fotocasa'
 
-SPIDER_MODULES = ['idealista.spiders']
-NEWSPIDER_MODULE = 'idealista.spiders'
+SPIDER_MODULES = ['fotocasa.spiders']
+NEWSPIDER_MODULE = 'fotocasa.spiders'
 
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
@@ -30,7 +30,7 @@ DOWNLOADER_MIDDLEWARES = {
 DOWNLOAD_TIMEOUT = 20
 
 DEFAULT_REQUEST_HEADERS = {
-    'Referer': 'https://www.idealista.com/'
+    'Referer': 'https://www.google.com/'
 }
 
 ###########################

@@ -8,18 +8,14 @@
 import scrapy
 
 
-class IdealistaItem(scrapy.Item):
+class Flat(scrapy.Item):
     date = scrapy.Field()
     link = scrapy.Field()
     price = scrapy.Field()
     address = scrapy.Field()
     sqft_m2 = scrapy.Field()
     rooms = scrapy.Field()
+    bathrooms = scrapy.Field()
     discount = scrapy.Field()
     floor_elevator = scrapy.Field()
     realestate = scrapy.Field()
-
-
-class Link(scrapy.Item):
-    href = scrapy.Field()
-    neighborhood = scrapy.Field()
