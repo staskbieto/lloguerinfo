@@ -9,6 +9,8 @@ verify_ssl = true
 scrapy = "*"
 scrapy-rotating-proxies = "*"
 scrapy-useragents = "*"
+requests = "*"
+requests-html = "*"
 
 [requires]
 python_version = "3.9"
