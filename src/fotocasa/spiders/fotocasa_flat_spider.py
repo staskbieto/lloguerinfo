@@ -1,10 +1,8 @@
-import scrapy
 from fotocasa.items import Flat
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 from datetime import datetime
-from scrapy.utils.response import open_in_browser
-from scrapy_selenium import SeleniumRequest
+
 import json
 import re
 
