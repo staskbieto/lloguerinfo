@@ -37,8 +37,26 @@ class FotocasaFlatsSpider(CrawlSpider):
             surface = [features['value'] for features in flat['features'] if features.get('key') == 'surface']
             surface = surface[0] if len(surface) else 0
 
+            conservation_state = [features['value'] for features in flat['features'] if
+                                  features.get('key') == 'conservationState']
+            conservation_state = conservation_state[0] if len(conservation_state) else 0
+
+            reduced_price = re.sub('\D', '', flat['reducedPrice']) if flat['reducedPrice'] else 0
+
             item = Flat(date=datetime.now().strftime('%Y-%m-%d'),
-                        link=flat['clientUrl'], price=flat['rawPrice'], address=flat['location'],
-                        discount=flat['reducedPrice'], sqft_m2=surface, bathrooms=bathrooms,
-                        rooms=rooms, floor_elevator=elevator, realestate=flat['clientAlias'])
+                        link=list(flat['detail'].values())[0],
+                        price=flat['rawPrice'],
+                        address=flat['location'],
+                        discount=reduced_price,
+                        sqft_m2=surface,
+                        bathrooms=bathrooms,
+                        rooms=rooms,
+                        floor_elevator=elevator,
+                        realestate=flat['clientAlias'],
+                        realestate_id=flat['clientId'],
+                        is_new_construction=flat['isNewConstruction'],
+                        conservation_state=conservation_state,
+                        building_type=flat['buildingType'],
+                        building_subtype=flat['buildingSubtype']
+                        )
             yield item

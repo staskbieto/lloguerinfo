@@ -19,3 +19,8 @@ class Flat(scrapy.Item):
     discount = scrapy.Field()
     floor_elevator = scrapy.Field()
     realestate = scrapy.Field()
+    realestate_id = scrapy.Field()
+    is_new_construction = scrapy.Field()
+    conservation_state = scrapy.Field()
+    building_type = scrapy.Field()
+    building_subtype = scrapy.Field()
