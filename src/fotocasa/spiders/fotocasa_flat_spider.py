@@ -40,5 +40,6 @@ class FotocasaFlatsSpider(CrawlSpider):
             item = Flat(date=datetime.now().strftime('%Y-%m-%d'),
                         link=flat['clientUrl'], price=flat['rawPrice'], address=flat['location'],
                         discount=flat['reducedPrice'], sqft_m2=surface, bathrooms=bathrooms,
-                        rooms=rooms, floor_elevator=elevator, realestate=flat['clientAlias'])
+                        rooms=rooms, floor_elevator=elevator, realestate=flat['clientAlias'],
+                        neighb_meanprice = 0, district_meanprice = 0)
             yield item

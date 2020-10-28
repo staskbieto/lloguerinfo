@@ -19,3 +19,5 @@ class Flat(scrapy.Item):
     discount = scrapy.Field()
     floor_elevator = scrapy.Field()
     realestate = scrapy.Field()
+    neighb_meanprice = scrapy.Field()
+    district_meanprince = scrapy.Field()
