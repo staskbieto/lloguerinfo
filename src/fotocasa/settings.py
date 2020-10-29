@@ -27,6 +27,10 @@ DOWNLOADER_MIDDLEWARES = {
     'rotating_proxies.middlewares.BanDetectionMiddleware': 620    
 }
 
+ITEM_PIPELINES = {
+    'fotocasa.pipelines.FotocasaPipeline': 300,
+}
+
 DOWNLOAD_TIMEOUT = 20
 
 DEFAULT_REQUEST_HEADERS = {

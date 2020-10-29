@@ -13,6 +13,7 @@ scrapy-useragents = "*"
 requests = "*"
 requests-html = "*"
 xlrd = "*"
+python-levenshtein = "*"
 
 [requires]
 python_version = "3.6"
