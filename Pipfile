@@ -12,8 +12,8 @@ scrapy-rotating-proxies = "*"
 scrapy-useragents = "*"
 requests = "*"
 requests-html = "*"
+pandas = "*"
 xlrd = "*"
-python-levenshtein = "*"
 
 [requires]
 python_version = "3.6"
