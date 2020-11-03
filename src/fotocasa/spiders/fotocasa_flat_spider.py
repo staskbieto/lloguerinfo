@@ -57,8 +57,6 @@ class FotocasaFlatsSpider(CrawlSpider):
                         is_new_construction=flat['isNewConstruction'],
                         conservation_state=conservation_state,
                         building_type=flat['buildingType'],
-                        building_subtype=flat['buildingSubtype'],
-                        neighb_meanprice = 0,
-                        district_meanprice = 0
+                        building_subtype=flat['buildingSubtype']
                         )
             yield item

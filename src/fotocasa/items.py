@@ -24,5 +24,3 @@ class Flat(scrapy.Item):
     conservation_state = scrapy.Field()
     building_type = scrapy.Field()
     building_subtype = scrapy.Field()
-    neighb_meanprice = scrapy.Field()
-    district_meanprice = scrapy.Field()
