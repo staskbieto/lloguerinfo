@@ -6,7 +6,10 @@
 ## Execució
 ```
 $ pipenv install
+$ pipenv shell
+
 $ cd src
 $ scrapy crawl fotocasa_flats -t csv -o ../csv/data.csv
+$ python gencat/means.py ../csv/data.csv ../csv/data_final.csv
 ```
 
