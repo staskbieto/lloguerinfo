@@ -1,5 +1,7 @@
 # TPCD_Practica1
 
+![Alt text](./imatge_dataset.png "Optional title")
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4261145.svg)](https://doi.org/10.5281/zenodo.4261145)
 
 [![LICENSE](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
