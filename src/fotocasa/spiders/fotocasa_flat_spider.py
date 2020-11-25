@@ -57,6 +57,8 @@ class FotocasaFlatsSpider(CrawlSpider):
                         is_new_construction=flat['isNewConstruction'],
                         conservation_state=conservation_state,
                         building_type=flat['buildingType'],
-                        building_subtype=flat['buildingSubtype']
+                        building_subtype=flat['buildingSubtype'],
+                        latitude=flat['coordinates']['latitude'],
+                        longitude=flat['coordinates']['longitude']
                         )
             yield item

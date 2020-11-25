@@ -24,3 +24,5 @@ class Flat(scrapy.Item):
     conservation_state = scrapy.Field()
     building_type = scrapy.Field()
     building_subtype = scrapy.Field()
+    latitude = scrapy.Field()
+    longitude = scrapy.Field()
