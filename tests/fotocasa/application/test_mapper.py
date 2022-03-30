@@ -3,14 +3,17 @@ import unittest
 import pytest
 import json
 
-@pytest.mark.current
+from fotocasa.application.Mapper import Mapper
+
+
 class TestMapper(unittest.TestCase):
     def testRawFlatToObject(self):
         #Given
-        raw_flat = json.load("test/data/flat_fotocasa.json")
+        with open('tests/data/flat_fotocasa.json') as json_file:
+            data = json.load(json_file)
 
+        result = Mapper().rawFlatToObject(data)
 
-
-        self.assertEqual(True, False)
+        self.assertIsNotNone(result)
 
 

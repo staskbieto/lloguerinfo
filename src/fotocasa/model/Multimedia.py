@@ -1,7 +1,6 @@
-class Multimedia:
+from pydantic import BaseModel
+
+
+class Multimedia(BaseModel):
     type: str
     src: str
-
-    def __init__(self, type: str, src: str) -> None:
-        self.type = type
-        self.src = src

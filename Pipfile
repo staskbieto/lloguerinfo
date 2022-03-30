@@ -5,15 +5,18 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+pytest = "*"
 
 [packages]
-scrapy = "*"
+Scrapy = "*"
 scrapy-rotating-proxies = "*"
-scrapy-useragents = "*"
+Scrapy-UserAgents = "*"
 requests = "*"
 requests-html = "*"
 pandas = "*"
 xlrd = "*"
+pydantic = "*"
+Django = "*"
 
 [requires]
 python_version = "3.6"

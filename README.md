@@ -1,6 +1,6 @@
 # TPCD_Practica1
 
-![Alt text](./imatge_dataset.png "Optional title")
+![Alt text](./scrimatge_dataset.png "Optional title")
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4261145.svg)](https://doi.org/10.5281/zenodo.4261145)
 

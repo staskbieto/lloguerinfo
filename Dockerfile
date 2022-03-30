@@ -7,16 +7,14 @@ WORKDIR /
 COPY Pipfile Pipfile
 COPY Pipfile.lock Pipfile.lock
 
+
 RUN pip install pipenv
+
+COPY src /src
+WORKDIR /src
 RUN pipenv install --dev --system --skip-lock
 
-COPY smartlibrary_operations /smartlibrary_operations
-COPY assets /assets
-
-WORKDIR /
-
-EXPOSE 8000
 ENV PYTHONPATH "."
 
-ENTRYPOINT ["python", "smartlibrary_operations/run.py"]
+RUN scrapy crawl fotocasa_flats
 

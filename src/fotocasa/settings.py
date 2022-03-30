@@ -27,10 +27,10 @@ DOWNLOADER_MIDDLEWARES = {
     'rotating_proxies.middlewares.BanDetectionMiddleware': 620    
 }
 
-DOWNLOAD_TIMEOUT = 20
+DOWNLOAD_TIMEOUT = 200
 
 DEFAULT_REQUEST_HEADERS = {
-    'Referer': 'https://www.google.com/'
+    'Referer': 'https://www.fotocasa.es/'
 }
 
 ###########################
@@ -44,6 +44,6 @@ USER_AGENT_LIST = "./useragents.txt"
 
 RETRY_HTTP_CODES = [500, 502, 503, 504, 400, 403, 404, 408]
 
-ROTATING_PROXY_PAGE_RETRY_TIMES = 99999999999# TODO: is it possible to setup this parameter with no limit?
-ROTATING_PROXY_LIST = get_proxies()
+#ROTATING_PROXY_PAGE_RETRY_TIMES = 99999999999
+#ROTATING_PROXY_LIST = get_proxies()
 
