@@ -1,0 +1,192 @@
+{
+	"accuracy": true,
+	"address": {
+		"country": "España",
+		"customZone": null,
+		"district": "Eixample",
+		"neighborhood": "Fort Pienc",
+		"zipCode": "08013",
+		"municipality": " Barcelona Capital",
+		"province": "Barcelona",
+		"city": " Barcelona Capital",
+		"cityZone": "",
+		"county": "Barcelonès",
+		"regionLevel1": "Cataluña",
+		"regionLevel2": "Barcelona",
+		"upperLevel": "Fort Pienc"
+	},
+	"buildingSubtype": "Flat",
+	"buildingType": "Flat",
+	"clientAlias": "URBENORTE CATALUNYA",
+	"clientId": 900140000217,
+	"clientTypeId": 3,
+	"clientUrl": "/es/inmobiliaria-urbenorte-catalunya/alquiler/inmuebles/espana/todas-las-zonas/l?clientId=900140000217",
+	"coordinates": {
+		"latitude": 41.39449,
+		"longitude": 2.17848,
+		"accuracy": 1
+	},
+	"date": {
+		"diff": 0,
+		"unit": "NOW"
+	},
+	"dateOriginal": {
+		"diff": 23,
+		"unit": "DAYS",
+		"timestamp": 1645734152657
+	},
+	"description": "Excelente piso en calle Roger de Flor (entre Casp y Asuiàs Marc) de 155 m2.\\r\\nDispone de amplio salón comedor con galeria exterior a patio de manzana, 3 dormitorios dobles, amplia cocina independiente, zona de lavadero, 2 baños (1 con ducha y 1 con bañera), suelos de parquet e hidraulicos, calefaccion por radiadores. Finca con ascensor y servicio de portería. Orientación Tarragona-Girona (exterior a calle y a patio manzana). Impecable.",
+	"detail": {
+		"es-ES": "/es/alquiler/vivienda/barcelona-capital/calefaccion-ascensor-no-amueblado/162691725/d"
+	},
+	"externalContactUrl": null,
+	"features": [{
+		"key": "bathrooms",
+		"value": 2,
+		"maxValue": 0,
+		"minValue": 0
+	}, {
+		"key": "floor",
+		"value": 7,
+		"maxValue": 0,
+		"minValue": 0
+	}, {
+		"key": "heating",
+		"value": 1,
+		"maxValue": 0,
+		"minValue": 0
+	}, {
+		"key": "elevator",
+		"value": 1,
+		"maxValue": 0,
+		"minValue": 0
+	}, {
+		"key": "rooms",
+		"value": 3,
+		"maxValue": 0,
+		"minValue": 0
+	}, {
+		"key": "surface",
+		"value": 155,
+		"maxValue": 0,
+		"minValue": 0
+	}],
+	"hasVideo": 0,
+	"hasVgo": false,
+	"id": 162691725,
+	"isDiscarded": false,
+	"isExternalContact": false,
+	"isFaved": false,
+	"isHighlighted": false,
+	"isPackAdvancePriority": false,
+	"isPackBasicPriority": false,
+	"isPackMinimalPriority": false,
+	"isPackPremiumPriority": false,
+	"isMsAdvance": false,
+	"isNew": false,
+	"isNewConstruction": false,
+	"hasOpenHouse": false,
+	"isOpportunity": false,
+	"isTrackedPhone": true,
+	"isTop": true,
+	"isVirtualTour": false,
+	"location": "Roger de Flor, 100, Eixample",
+	"minPrice": 0,
+	"multimedia": [{
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633382.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633350.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633355.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633357.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633280.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633283.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633288.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633296.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633302.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633305.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633313.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633314.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633317.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633320.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633322.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633325.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633336.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633339.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633271.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633346.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633359.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633366.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633389.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633397.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633405.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633411.jpg?rule=original"
+	}, {
+		"type": "image",
+		"src": "https://static.inmofactory.com/images/inmofactory/documents/1/90329/7268803/45633376.jpg?rule=original"
+	}],
+	"otherFeaturesCount": 8,
+	"periodicityId": 3,
+	"phone": "931332815",
+	"price": "1.500 €",
+	"promotionId": 0,
+	"promotionLogo": "https://static.fotocasa.es/images/client/900140000217/628197.jpg?rule=original",
+	"promotionUrl": null,
+	"promotionTitle": null,
+	"promotionTypologiesCounter": null,
+	"rawPrice": 1500,
+	"realEstateAdId": "add980f8-4906-47e8-ac32-9071e6f469e6",
+	"reducedPrice": "50 €",
+	"subtypeId": 1,
+	"transactionTypeId": 3,
+	"typeId": 2
+}
