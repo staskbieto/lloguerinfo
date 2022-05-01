@@ -17,6 +17,13 @@ pandas = "*"
 xlrd = "*"
 pydantic = "*"
 Django = "*"
+djangorestframework = "*"
+scrapyd-api = "*"
+scrapyd = "*"
+django-crontab = "*"
+scrapy-djangoitem = "*"
+pytest-django = "*"
+psycopg2= "*"
 
 [requires]
 python_version = "3.6"
