@@ -16,7 +16,7 @@ class FotocasaFlatsSpider(CrawlSpider):
 
     def start_requests(self):
         urls =  [
-        'https://www.fotocasa.es/es/alquiler/viviendas/barcelona-capital/todas-las-zonas/l/{}'.format(i) for i in range(1,2)]
+        'https://www.fotocasa.es/es/alquiler/viviendas/barcelona-capital/todas-las-zonas/l/{}'.format(i) for i in range(1,200)]
         for url in urls:
             yield Request(url=url, callback=self.parse)
 
