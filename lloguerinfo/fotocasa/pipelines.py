@@ -41,6 +41,7 @@ class FotocasaPipeline(object):
              'neighbourhood_meanprice_difference', 'price_m2']]
         flats_processed_dicts_datafreme_mean = flats_processed_dicts_datafreme.groupby(['neighbourhood', 'neighbourhood_id'], as_index=False).mean()
         neighbourhood_means_list = []
+
         for index, row in flats_processed_dicts_datafreme_mean.iterrows():
             neighbourhood_means_list.append(
                 NeighbourhoodMeans(
