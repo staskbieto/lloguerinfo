@@ -53,7 +53,7 @@ class FotocasaPipeline(object):
                     discount=row['discount'],
                     neighbourhood=row['neighbourhood'],
                     neighbourhood_id=row['neighbourhood_id'],
-                    neighbourhood_meanprice_difference=row['price'],
+                    neighbourhood_meanprice_difference=row['neighbourhood_meanprice_difference'],
                     price_m2=row['price_m2'],
                     extract_info_id=self.extract_info
                 )

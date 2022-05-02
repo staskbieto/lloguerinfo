@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-m&$^9_p4wx@2kz)o5&)p-fc%35g6%hl1&ij3z$j)=x0=t-q$1=
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1']
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'lloguerinfo.azurewebsites.net','https://lloguerinfo.azurewebsites.net']
+CSRF_TRUSTED_ORIGINS = ['https://lloguerinfo.azurewebsites.net']
 
 
 # Application definition
@@ -134,5 +135,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRONJOBS = [
-    ('* * * * *', 'web.cron.run_scrapy_fotocasa')
+    ('0 4 * * *', 'web.cron.run_scrapy_fotocasa')
 ]
